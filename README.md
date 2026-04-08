@@ -1,5 +1,3 @@
-# ECT-Patch-Transformer
-A patch-based transformer method for an accurate reconstruction of ECT images.  The complex capacitance-to-image mapping is systematically decoupled into the capacitance-to-patch feature extraction and patch-to-image reconstruction.
 
 # Patch-Transformer for Electrical Capacitance Tomography Reconstruction (IROS 2025)
 
@@ -38,7 +36,7 @@ Accepted by *IEEE/RSJ International Conference on Intelligent Robots and Systems
 ---
 
 ## 🧩 Architecture
-*(Replace with your figure)*
+Capacitance → CNN Encoder → Patch Features → Transformer → Decoder → Image
 
 ## 📊 Results
 | Metric | Value   |
