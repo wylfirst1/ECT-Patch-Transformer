@@ -40,5 +40,44 @@ Accepted by *IEEE/RSJ International Conference on Intelligent Robots and Systems
 ## 🧩 Architecture
 *(Replace with your figure)*
 
+## 📊 Results
+| Metric | Value   |
+| ------ | ------- |
+| SSIM   | 0.95+   |
+| PSNR   | 27.6 dB |
+Robust under 10dB / 20dB noise
+Outperforms traditional and deep learning baselines (e.g., ED-Net, WGAN)
+
+(建议你放论文里的重建对比图)
+
+## 📦 Installation
+pip install -r requirements.txt
+
+## ▶️ Usage
+Training
+python train.py
+Testing
+python test.py
+
+## 📁 Dataset
+Generated using COMSOL + MATLAB multi-physics simulation
+45,000+ samples
+Includes multi-object and varying-size scenarios
+
+## 🔬 Applications
+This method can be extended to:
+
+🤖 Robot near-field perception (proximity sensing)
+✋ Electronic skin for robotic manipulators
+🧍 Human-robot interaction (safe distance estimation)
+
+## 📌 Future Work
+Integrate with real sensor data
+Extend to multimodal perception (vision + capacitance)
+Apply to robotic manipulation tasks
+
+## 📫 Contact
+Yuliang Wang
+Email: wylfirst1@163.com
 ```text
 Capacitance → CNN Encoder → Patch Features → Transformer → Decoder → Image
