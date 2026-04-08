@@ -49,12 +49,15 @@ Outperforms traditional and deep learning baselines (e.g., ED-Net, WGAN)
 (建议你放论文里的重建对比图)
 
 ## 📦 Installation
+```text
 pip install -r requirements.txt
 
 ## ▶️ Usage
 Training
+```text
 python train.py
 Testing
+```text
 python test.py
 
 ## 📁 Dataset
@@ -77,5 +80,4 @@ Apply to robotic manipulation tasks
 ## 📫 Contact
 Yuliang Wang
 Email: wylfirst1@163.com
-```text
-Capacitance → CNN Encoder → Patch Features → Transformer → Decoder → Image
+
